@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
+  color: white;
+  line-height: 1.5;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 5% 15% 5%;
+}
+
+.navbar {
+  padding: 0 5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.mgt {
+  padding: 5%;
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  .mgt{
+    position: static;
+    width: 100%;
+    transform: none;
+  }
+
+  .title{
+    text-align: center;
+  }
+}
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+}
+
+.fas:hover {
+  color: Magenta;
+}
+
+.con:hover, .fas {
+  color: DarkBlue;
+}
+
+
+#testimonials, #press{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.tst-img{
+  width: 25%;
+  border-radius: 100%;
+}
+
+
+.con {
+  background-color: white;
+  text-decoration-color: #000;
+}
+
+.press-logo{
+  padding-left: 5px;
+  margin: 5px;
+  width: 10%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.icons {
+  margin: 20px 10px;
+}
+
+#nap {
+  font-size: 1.25rem;
+}
+
+#dog {
+  font-size: 15px;
+}
